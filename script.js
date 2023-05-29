@@ -1,6 +1,6 @@
 window.addEventListener('DOMContentLoaded', function() {
   // RSS feed URL for Western Australia weather warnings
-  var rssFeedUrl = 'https://example.com/wa-weather-warnings.xml';
+  var rssFeedUrl = 'http://www.bom.gov.au/fwo/IDZ00060.warnings_wa.xml';
 
   // Fetch the RSS feed
   fetch(rssFeedUrl)
